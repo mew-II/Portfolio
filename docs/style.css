@@ -4,22 +4,44 @@ body {
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
-div {
+div, figure {
     border-style: outset;
     border-width: medium;
     border-color: #6020FD;
     border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+img{
+    width: 90%
+}
+figcaption {
+
 }
 div {
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-section{
-    display:flex;
+section {
+    display: flex;
+}
+nav {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 40%;
+    border-style: outset;
+    border-width: medium;
+    border-color: #6020FD;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
