@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>My Works - Matthew Weitzel Portfolio</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
     </head>
     <body>
         <h1>My Works</h1>
         <nav>
-            <a href="index.html">Home</a> | <a href="aboutMe.html">About Me</a> | <a href="portfolio.html">My Works</a> | <a
-                href="resume.html">Resume</a>
+            <a href="index.html">Home</a> | <a href="aboutMe.html">About Me</a> | <a
+                href="portfolio.html">My Works</a> | <a href="resume.html">Resume</a>
         </nav>
+        <div class="gallery">
+            <a target="_blank" href="heron.jpg">
+                <img src="images/heron.jpg" alt="Heron Taking Off" width="600" height="400"/>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="blackbird.jpg">
+                <img src="images/blackbird.jpg" alt="Sillhouette" width="600" height="400"/>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="egretnest.jpg">
+                <img src="images/egretnest.jpg" alt="Pair" width="600" height="400"/>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="alligator.jpg">
+                <img src="images/alligator.jpg" alt="Camouflage" width="600" height="400"/>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
     </body>
 </html>

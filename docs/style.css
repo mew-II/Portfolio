@@ -1,4 +1,25 @@
-            
-            body {
-                background: #FEC6F9;
-                font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;}
+
+body {
+    background-image: linear-gradient(to bottom right, #FEC6F9, #8655FF);
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+div {
+    border-style: outset;
+    border-width: medium;
+    border-color: #6020FD;
+    border-radius: 5px;
+}
+div {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+section{
+    display:flex;
+}
