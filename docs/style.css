@@ -42,6 +42,11 @@ img {
 img.cc{
     width: 5%
 }
+iframe{
+    width: 500px;
+    height: 500px;
+    
+}
 figcaption {
 
 }
@@ -49,11 +54,15 @@ section {
     display: flex;
     justify-content: center;
 }
+p.final{
+    font-size: 20px;
+    justify-content: center;
+}
 nav {
     background-color: white;
     color: black;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     border-style: outset;
     border-width: medium;
     border-color: #6020FD;
